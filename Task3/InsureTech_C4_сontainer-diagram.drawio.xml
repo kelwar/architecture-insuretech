@@ -264,7 +264,7 @@
             <mxGeometry x="960" y="580" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="gVHKfz2N__wKjOVmlUKv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0A02;" edge="1" parent="1" source="uZ0quFO-MIEIE11IO5jD-16" target="gVHKfz2N__wKjOVmlUKv-3">
+        <mxCell id="gVHKfz2N__wKjOVmlUKv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0A02;" edge="1" parent="1" source="uZ0quFO-MIEIE11IO5jD-16" target="gVHKfz2N__wKjOVmlUKv-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gVHKfz2N__wKjOVmlUKv-6" value="&lt;b&gt;Потоковое сохранение информации по продуктам и тарифам [Kafka Streams Producer]&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];whiteSpace=wrap;fontColor=#FF0A02;" vertex="1" connectable="0" parent="gVHKfz2N__wKjOVmlUKv-5">
