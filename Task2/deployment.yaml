@@ -5,23 +5,22 @@ metadata:
   labels:
     app: scaletestapp
 spec:
-  replicas: 1
   selector:
     matchLabels:
       app: scaletestapp
+  replicas: 1
   template:
     metadata:
       labels:
         app: scaletestapp
     spec:
       containers:
-        - name: scaletestapp
-          image: ghcr.io/yandex-practicum/scaletestapp:latest@sha256:7273dd1ffd1c1a29a307eb299b949f71828952b90dee42a5b26b052e92793452
-          ports:
-            - containerPort: 8080
-          resources:
-            requests:
-              memory: "30Mi"
-            limits:
-              memory: "30Mi"
-          imagePullPolicy: Never
+      - name: scaletestapp
+        image: ghcr.io/yandex-practicum/scaletestapp:latest@sha256:7273dd1ffd1c1a29a307eb299b949f71828952b90dee42a5b26b052e92793452
+        ports:
+        - containerPort: 8080
+        resources:
+#          requests: {}
+          limits:
+            memory: "30Mi"
+        imagePullPolicy: IfNotPresent
